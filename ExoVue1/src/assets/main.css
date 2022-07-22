@@ -1,0 +1,29 @@
+@import "./base.css";
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+body{
+  background-color: #5000FF;
+}
+
+a,
+.green {
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  a:hover {
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+  }
+
+  #app {
+    padding: 0 0rem;
+  }
+}
