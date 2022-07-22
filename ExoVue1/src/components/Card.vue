@@ -8,10 +8,14 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
- <div class="card d-flex justify-content-center" style="width: 18rem;">
+ <div class="card mx-auto mt-5" style="width: 25rem;">
   <div class="card-body">
+    
+<slot></slot>
+
 
   </div>
+  
 </div>
    
 </template>

@@ -11,13 +11,13 @@ import HelloWorld from './components/HelloWorld.vue'
           <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Grégory Sofian Stéphanie</a>
               </li>
             </ul>
           </div>
           <div>
             <button class="btn primary" type="submit"><RouterLink to="/login">Sign in</RouterLink></button>
-            <button class="btn btn-outline-primary" type="submit"><RouterLink to="/about">Sign up</RouterLink></button>
+            <button class="btn btn-outline-primary" type="submit"><RouterLink to="/">Sign up</RouterLink></button>
           </div>
         </div>
       </div>
